@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: large; 
+    background-color: pink;
+ }
+
+header{
+    position: relative; 
+    text-align: center; 
+    height: 150px; 
+    margin: 80px; 
+    padding-top: 20px;
+   
+}
+
+.head{
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5; 
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+ 
+ .burger {
+    color: whitesmoke;
+    background-color: black;
+    margin: 80px;
+    padding: 70px; 
+    border: 15px double ; 
+ }
+ 
+ #ingridients {
+    text-transform: uppercase;
+ }
+
+.classic_burger{
+    margin: 2px; 
+}
+
+.halloumi_burger{
+    margin: 2px;
+}
+
+.chicken_burger{
+    margin: 2px; 
+}
+
+
+ .orderdetails{
+    background-color: aquamarine;
+    margin: 70px;
+    padding: 30px; 
+    border: 15px double black; 
+
+ }
+
+ button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+ }
+
+ button{
+    margin: 50px; 
+ }
