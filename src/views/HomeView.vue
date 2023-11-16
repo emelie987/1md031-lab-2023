@@ -29,14 +29,7 @@
                   <label for="Email adress">Email adress</label><br>
                   <input type="email" id="emailAdress" v-model="ea" placeholder="type here...">
                </p>
-               <p>
-                  <label for="Street name">Street name</label><br>
-                  <input type="text" id="StreetName" v-model="sn" placeholder="type here...">
-               </p>
-               <p>
-                  <label for="House number">House number</label><br>
-                  <input type="number" id="houseNumber" v-model="hn" required="required" placeholder="type here...">
-               </p>
+            
                <p>
                   <label for="Phone number">Phone number</label><br>
                   <input type="number" id="phoneNumber" v-model="pn" required="required" placeholder="type here...">

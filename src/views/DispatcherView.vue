@@ -7,7 +7,6 @@
         <div>
           {{ order.customerInformation.name }}
           {{ order.customerInformation.emailAdress }}
-          {{ order.customerInformation.houseNumber }}
           {{ order.customerInformation.phoneNumber }}
           {{ order.customerInformation.paymentMethod }}
         
