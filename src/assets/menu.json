@@ -1,0 +1,26 @@
+
+[
+    {
+      "name": "Classic Burger",
+      "calories": 700,
+      "lactoes": true,
+      "gluten": true,
+      "img": "img/classicburger.jpg"
+    }, 
+
+    {
+      "name": "Halloumi Burger",
+      "calories": 450,
+      "lactoes": true,
+      "gluten": true,
+      "img": "img/hallou3.jpg"
+    }, 
+    {
+      "name": "Chicken Burger", 
+      "calories": 500, 
+      "lactoes": true, 
+      "gluten": true, 
+      "img": "img/chickenburger2.jpg" 
+    }
+
+  ]
